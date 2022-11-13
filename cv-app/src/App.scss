@@ -1,0 +1,27 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Australia';
+  src: url('./assets/fonts/Australia.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Caviar';
+  src: url('./assets/fonts/Caviar.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'REVONZA';
+  src: url('./assets/fonts/REVONZA.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto.ttf') format('ttf');
+}
+
+input,
+textarea{
+
+font-family: 'Australia' ;
+}
