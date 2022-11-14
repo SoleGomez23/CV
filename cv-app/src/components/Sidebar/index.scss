@@ -16,11 +16,13 @@
         img {
             display: block;
             margin: 8px auto;
-            width: 24px;
+            width: 40px;
             height: auto;
+            border-radius: 500px;
         
             &.sub-logo{
                 width: 50px;
+                ;
             }
         }
     }

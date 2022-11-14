@@ -13,16 +13,15 @@
         color: #fff;
         font-size: 53px;
         margin: 0;
-        font-family: 'REVONZA';
-        font-weight: 400;
+        font-family: 'Australia';
+        font-weight: 600;
 
         &::before{
             content: '<h1>';
             font-family: 'Australia';
             color: #ffd700;
             font-size: 18px;
-            position: absolute;
-            margin-top: -40;
+            margin-top: -30;
             left: 15px;
             opacity: 0.6;
         }
@@ -32,19 +31,50 @@
             font-family: 'Australia';
             color: #ffd700;
             font-size: 18px;
-            position: absolute;
             margin-top: 18;
             left: 20px;
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
         }
-        img{
-            width: 250px;
-            margin-left: 10px;
-            opacity: 0;
-            height: auto;
-            animation:  fadeIn 1s forwards;
-            
+        
+    }
+    img{
+        width: 190px;
+        margin-left: 10px;
+        opacity: 0;
+        height: auto;
+        animation:  fadeIn 1s forwards;
+        
+    }
+
+    h2{
+        color:#ffd700;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 22px;
+        font-family: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+
+    }
+    .flat-button{
+        color: #ffd700;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: #ffd700;
+            color:#333;
+
         }
+
     }
 }
